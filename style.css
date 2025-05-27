@@ -3,6 +3,7 @@
   padding:0;  
 }
 
+/* Page Structure */
 #banner { 
   position: absolute; 
   top: 0; 
@@ -27,15 +28,6 @@
 #main-content { 
   padding-top: 70px;
   text-align:center;
-
-  h1#title {
-    margin: auto;
-    width: 50%;
-  }
-  table#calendar {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 div#column {
@@ -49,16 +41,31 @@ div#row:after {
   clear: both;
 }
 
-p#centered-text {
-  margin: auto;
-  width: 50%;
-}
-
+/* Shapes */
 div#thin_green_rectangle {
   border-radius: 5px;
   background-color: rgb(133,140,119);
   padding: 5px;
   margin: 1em; 
+}
+
+/* Page Elements */
+
+table#calendar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Text Formatting */
+
+h1#title {
+  margin: auto;
+  width: 50%;
+}
+
+p#centered-text {
+  margin: auto;
+  width: 50%;
 }
 
 a:link {
